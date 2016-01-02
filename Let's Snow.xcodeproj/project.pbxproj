@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F074D4041C37EBC80044C01F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F074D4031C37EBC80044C01F /* main.m */; };
+		F074D4071C37EBC80044C01F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F074D4061C37EBC80044C01F /* AppDelegate.m */; };
+		F074D40A1C37EBC80044C01F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F074D4091C37EBC80044C01F /* GameScene.m */; };
+		F074D40C1C37EBC80044C01F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F074D40B1C37EBC80044C01F /* GameScene.sks */; };
+		F074D40F1C37EBC80044C01F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F074D40E1C37EBC80044C01F /* GameViewController.m */; };
+		F074D4121C37EBC80044C01F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F074D4101C37EBC80044C01F /* Main.storyboard */; };
+		F074D4141C37EBC80044C01F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F074D4131C37EBC80044C01F /* Images.xcassets */; };
+		F074D4171C37EBC80044C01F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F074D4151C37EBC80044C01F /* LaunchScreen.xib */; };
+		F074D4231C37EBC80044C01F /* Let_s_SnowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F074D4221C37EBC80044C01F /* Let_s_SnowTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F074D41D1C37EBC80044C01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F074D3F61C37EBC80044C01F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F074D3FD1C37EBC80044C01F;
+			remoteInfo = "Let's Snow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F074D3FE1C37EBC80044C01F /* Let's Snow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Let's Snow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F074D4021C37EBC80044C01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F074D4031C37EBC80044C01F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F074D4051C37EBC80044C01F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F074D4061C37EBC80044C01F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F074D4081C37EBC80044C01F /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		F074D4091C37EBC80044C01F /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		F074D40B1C37EBC80044C01F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F074D40D1C37EBC80044C01F /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		F074D40E1C37EBC80044C01F /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		F074D4111C37EBC80044C01F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F074D4131C37EBC80044C01F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F074D4161C37EBC80044C01F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F074D41C1C37EBC80044C01F /* Let's SnowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Let's SnowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F074D4211C37EBC80044C01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F074D4221C37EBC80044C01F /* Let_s_SnowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Let_s_SnowTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F074D3FB1C37EBC80044C01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F074D4191C37EBC80044C01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F074D3F51C37EBC80044C01F = {
+			isa = PBXGroup;
+			children = (
+				F074D4001C37EBC80044C01F /* Let's Snow */,
+				F074D41F1C37EBC80044C01F /* Let's SnowTests */,
+				F074D3FF1C37EBC80044C01F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F074D3FF1C37EBC80044C01F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F074D3FE1C37EBC80044C01F /* Let's Snow.app */,
+				F074D41C1C37EBC80044C01F /* Let's SnowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F074D4001C37EBC80044C01F /* Let's Snow */ = {
+			isa = PBXGroup;
+			children = (
+				F074D4051C37EBC80044C01F /* AppDelegate.h */,
+				F074D4061C37EBC80044C01F /* AppDelegate.m */,
+				F074D4081C37EBC80044C01F /* GameScene.h */,
+				F074D4091C37EBC80044C01F /* GameScene.m */,
+				F074D40B1C37EBC80044C01F /* GameScene.sks */,
+				F074D40D1C37EBC80044C01F /* GameViewController.h */,
+				F074D40E1C37EBC80044C01F /* GameViewController.m */,
+				F074D4101C37EBC80044C01F /* Main.storyboard */,
+				F074D4131C37EBC80044C01F /* Images.xcassets */,
+				F074D4151C37EBC80044C01F /* LaunchScreen.xib */,
+				F074D4011C37EBC80044C01F /* Supporting Files */,
+			);
+			path = "Let's Snow";
+			sourceTree = "<group>";
+		};
+		F074D4011C37EBC80044C01F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F074D4021C37EBC80044C01F /* Info.plist */,
+				F074D4031C37EBC80044C01F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F074D41F1C37EBC80044C01F /* Let's SnowTests */ = {
+			isa = PBXGroup;
+			children = (
+				F074D4221C37EBC80044C01F /* Let_s_SnowTests.m */,
+				F074D4201C37EBC80044C01F /* Supporting Files */,
+			);
+			path = "Let's SnowTests";
+			sourceTree = "<group>";
+		};
+		F074D4201C37EBC80044C01F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F074D4211C37EBC80044C01F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F074D3FD1C37EBC80044C01F /* Let's Snow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F074D4261C37EBC80044C01F /* Build configuration list for PBXNativeTarget "Let's Snow" */;
+			buildPhases = (
+				F074D3FA1C37EBC80044C01F /* Sources */,
+				F074D3FB1C37EBC80044C01F /* Frameworks */,
+				F074D3FC1C37EBC80044C01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Let's Snow";
+			productName = "Let's Snow";
+			productReference = F074D3FE1C37EBC80044C01F /* Let's Snow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F074D41B1C37EBC80044C01F /* Let's SnowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F074D4291C37EBC80044C01F /* Build configuration list for PBXNativeTarget "Let's SnowTests" */;
+			buildPhases = (
+				F074D4181C37EBC80044C01F /* Sources */,
+				F074D4191C37EBC80044C01F /* Frameworks */,
+				F074D41A1C37EBC80044C01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F074D41E1C37EBC80044C01F /* PBXTargetDependency */,
+			);
+			name = "Let's SnowTests";
+			productName = "Let's SnowTests";
+			productReference = F074D41C1C37EBC80044C01F /* Let's SnowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F074D3F61C37EBC80044C01F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = iteast;
+				TargetAttributes = {
+					F074D3FD1C37EBC80044C01F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F074D41B1C37EBC80044C01F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F074D3FD1C37EBC80044C01F;
+					};
+				};
+			};
+			buildConfigurationList = F074D3F91C37EBC80044C01F /* Build configuration list for PBXProject "Let's Snow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F074D3F51C37EBC80044C01F;
+			productRefGroup = F074D3FF1C37EBC80044C01F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F074D3FD1C37EBC80044C01F /* Let's Snow */,
+				F074D41B1C37EBC80044C01F /* Let's SnowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F074D3FC1C37EBC80044C01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F074D4171C37EBC80044C01F /* LaunchScreen.xib in Resources */,
+				F074D4141C37EBC80044C01F /* Images.xcassets in Resources */,
+				F074D40C1C37EBC80044C01F /* GameScene.sks in Resources */,
+				F074D4121C37EBC80044C01F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F074D41A1C37EBC80044C01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F074D3FA1C37EBC80044C01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F074D40F1C37EBC80044C01F /* GameViewController.m in Sources */,
+				F074D4071C37EBC80044C01F /* AppDelegate.m in Sources */,
+				F074D40A1C37EBC80044C01F /* GameScene.m in Sources */,
+				F074D4041C37EBC80044C01F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F074D4181C37EBC80044C01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F074D4231C37EBC80044C01F /* Let_s_SnowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F074D41E1C37EBC80044C01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F074D3FD1C37EBC80044C01F /* Let's Snow */;
+			targetProxy = F074D41D1C37EBC80044C01F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F074D4101C37EBC80044C01F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F074D4111C37EBC80044C01F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F074D4151C37EBC80044C01F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F074D4161C37EBC80044C01F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F074D4241C37EBC80044C01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F074D4251C37EBC80044C01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F074D4271C37EBC80044C01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Let's Snow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F074D4281C37EBC80044C01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Let's Snow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F074D42A1C37EBC80044C01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Let's SnowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Let's Snow.app/Let's Snow";
+			};
+			name = Debug;
+		};
+		F074D42B1C37EBC80044C01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Let's SnowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Let's Snow.app/Let's Snow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F074D3F91C37EBC80044C01F /* Build configuration list for PBXProject "Let's Snow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F074D4241C37EBC80044C01F /* Debug */,
+				F074D4251C37EBC80044C01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F074D4261C37EBC80044C01F /* Build configuration list for PBXNativeTarget "Let's Snow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F074D4271C37EBC80044C01F /* Debug */,
+				F074D4281C37EBC80044C01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F074D4291C37EBC80044C01F /* Build configuration list for PBXNativeTarget "Let's SnowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F074D42A1C37EBC80044C01F /* Debug */,
+				F074D42B1C37EBC80044C01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F074D3F61C37EBC80044C01F /* Project object */;
+}
